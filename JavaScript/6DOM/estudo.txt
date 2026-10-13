@@ -1,0 +1,15 @@
+APIs (Interface de programação de aplicações)
+  usadas na comunicação entre diferentes aplicações
+  facilita a manipulação e integraçao de dados de sistemas diferentes
+
+DOM (Document Object Model)
+  interação com documentos html
+
+getDocumentById
+  retorna o elemento com o id especificado
+
+querySelector
+  retorna o primeiro elemento da classe
+  especificada
+
+
