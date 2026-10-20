@@ -1,0 +1,61 @@
+<style>
+  a {
+    display: block;
+  }
+
+  a[href] {
+    color: blue;
+    text-decoration: underline;
+  }
+
+  a {
+    display: block;
+  }
+
+  a[href][title] {
+    display: block;
+    color: green;
+  }
+  a[class~="primary"] {
+    color: red;
+  }
+  a[href^="https://"] {
+    color: yellow;
+    text-decoration: underline;
+  }
+  a[href$=".com"] {
+    color: purple;
+    text-decoration: underline dotted;
+  }
+  p[lang="en"] {
+    font-style: italic;
+  }
+  p[data-lang="fr"] {
+    color: blue;
+  }
+  ol[type="A"] {
+    color: purple;
+    font-weight: bold;
+  }
+</style>
+<a href="https://example.com">Example link with an href attribute</a>
+<a>Example link without an href attribute</a>
+<a
+  class="primary"
+  href="https://example.com"
+  title="Example link with a title attribute"
+  >Example link with a title attribute</a
+>
+<a>Example link without a title or href attribute</a>
+<a href="https://example.com" class="btn primary large">Visit Example Site</a>
+
+<p lang="en">This is an English paragraph.</p>
+<p lang="fr">Ceci est un paragraphe en français.</p>
+
+<p data-lang="fr">Ceci est un paragraphe en français.</p>
+<p data-lang="en">This is a paragraph in English.</p>
+
+<ol type="A">
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ol>
